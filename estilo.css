@@ -20,7 +20,7 @@ html, body {
   }
 body {
     min-height: 100vh;
-    background-image: url(mogus2.png),linear-gradient(to bottom right, #295264, #ae0d6e);
+    background-image: url(strogo.png),linear-gradient(to bottom right, #295264, #ae0d6e);
     padding: 10px;
     background-repeat:no-repeat;
     background-position: left top;
