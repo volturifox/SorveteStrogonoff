@@ -1,0 +1,74 @@
+@keyframes animacion {
+    from {background-position: left top;}
+    50% {background-position: right bottom;}
+    to {background-position: left top;}
+}
+@keyframes rgbi {
+    0% {background-color: #ff1a1a;}
+    84% {background-color: #ff471a;}
+    70% {background-color: #ffff1a;}
+    56% {background-color: #53ff1a;}
+    42% {background-color: #1affd1;}
+    28% {background-color: #1a75ff;}
+    14% {background-color: #a31aff;}
+    100% {background-color: #ff1a75;}
+}
+
+
+html, body {
+    height: 100vh;
+  }
+body {
+    min-height: 100vh;
+    background-image: url(mogus2.png),linear-gradient(to bottom right, #295264, #ae0d6e);
+    padding: 10px;
+    background-repeat:no-repeat;
+    background-position: left top;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+/* body{
+    background-image: rgb(34, 34, 34);
+} */
+#titulo-principal{
+    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.topico{
+    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.texto{
+    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.div{
+    /* position: relative; */
+    background-color: #295264;
+    border: 5px outset #142433;
+    box-shadow: darkblue;
+    /* z-index: 0; */
+    width: 98%;
+    margin-left: 9px;
+    transform: translateY(5px);
+    /* height: 95%; */
+}
+.div2{
+    /* position: absolute; */
+    /* top: -5px; 
+    left: -5px; 
+    right: -5px; 
+    bottom: -5px; */
+    height: 13%;
+    animation-name: rgbi;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    /* border: 5px outset #142433;
+    z-index: -1; */
+}
+a:hover{
+    color:#142433;
+}
